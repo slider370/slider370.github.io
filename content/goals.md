@@ -26,6 +26,10 @@ In the near term, I am focused on three immediate goals:
 - Strengthen familiarity with verification workflows, including testbench structure, coverage thinking, and debugging methodology.
 - Complete and polish technical project pages in this portfolio so they clearly communicate technical decisions and outcomes.
 
+My involvement in SiliconJackets is part of this plan because it exposes me to how chip projects are organized from design through verification and physical implementation. Seeing the tapeout process at a student-team level helps me connect classroom topics to the standards and collaboration style used in real silicon projects.
+
+![SiliconJackets tapeout visual that motivates my long-term silicon path](/images/sj-tapeout1.png)
+
 ### During junior and senior years
 
 - Take advanced coursework that supports digital design and verification.

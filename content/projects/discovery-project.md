@@ -20,6 +20,8 @@ At a high level, the project pipeline is:
 
 This flow gave me a full-stack engineering challenge while still keeping the center of gravity in hardware design and verification-oriented thinking.
 
+![Current FFT analyzer spectrum view screenshot from my project workflow](/images/fft_analyzer_showcase.png)
+
 ## Context, Contributions, and Learning
 
 My specific contribution has been developing and integrating the system in a way that is testable and incrementally debuggable. That includes working across module boundaries, validating signal flow with known stimuli, and checking implementation reports to confirm design health. A major practical lesson from this process is the importance of known-good test conditions. I used deterministic sources during bring-up so I could isolate integration issues quickly before trusting live input paths.
@@ -38,5 +40,11 @@ Those habits connect directly to the type of role I want after graduation, espec
 ## Results and Current Status
 
 The project is in active development and already demonstrates end-to-end system behavior across the major stages of the pipeline. Timing closure and resource usage indicate a workable baseline implementation, and the architecture is positioned for continued refinement. Current priorities include final integration polish, deeper validation coverage, and clearer presentation of measured behavior.
+
+To support this progress, I also keep visual snapshots of both the software-facing spectrum display and the physical hardware setup so I can communicate system state clearly during reviews and showcase presentations.
+
+![FFT analyzer web interface capture from my earlier build iteration](/images/fft-analyzer-ui.png)
+
+![FPGA hardware setup photo used while validating the analyzer pipeline](/images/fft-hardware-setup.jpg)
 
 For the Discovery Project Showcase, I will continue expanding this page with additional screenshots, refined results discussion, and final reflections on design tradeoffs and future improvements.
