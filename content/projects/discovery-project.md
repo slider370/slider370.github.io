@@ -41,10 +41,6 @@ Those habits connect directly to the type of role I want after graduation, espec
 
 The project is in active development and already demonstrates end-to-end system behavior across the major stages of the pipeline. Timing closure and resource usage indicate a workable baseline implementation, and the architecture is positioned for continued refinement. Current priorities include final integration polish, deeper validation coverage, and clearer presentation of measured behavior.
 
-To support this progress, I also keep visual snapshots of both the software-facing spectrum display and the physical hardware setup so I can communicate system state clearly during reviews and showcase presentations.
-
-![FFT analyzer web interface capture from my earlier build iteration](/images/fft-analyzer-ui.png)
-
-![FPGA hardware setup photo used while validating the analyzer pipeline](/images/fft-hardware-setup.jpg)
+To support this progress, I keep visual snapshots of system behavior so I can communicate current state clearly during reviews and showcase presentations.
 
 For the Discovery Project Showcase, I will continue expanding this page with additional screenshots, refined results discussion, and final reflections on design tradeoffs and future improvements.
