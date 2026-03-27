@@ -1,0 +1,43 @@
+baseURL = 'https://slider370.github.io/'
+languageCode = 'en-us'
+title = 'Khalid Ali | ECE ePortfolio'
+theme = 'PaperMod'
+
+[params]
+  description = 'ECE 1100 ePortfolio for Khalid Ali, Georgia Tech Computer Engineering student.'
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  defaultTheme = 'auto'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+  [[menu.main]]
+    identifier = 'home'
+    name = 'Home'
+    url = '/'
+    weight = 1
+  [[menu.main]]
+    identifier = 'about'
+    name = 'About'
+    url = '/about/'
+    weight = 2
+  [[menu.main]]
+    identifier = 'resume'
+    name = 'Resume'
+    url = '/resume/'
+    weight = 3
+  [[menu.main]]
+    identifier = 'goals'
+    name = 'Career Goals'
+    url = '/goals/'
+    weight = 4
+  [[menu.main]]
+    identifier = 'projects'
+    name = 'Projects'
+    url = '/projects/'
+    weight = 5
